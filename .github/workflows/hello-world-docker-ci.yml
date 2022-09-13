@@ -11,3 +11,5 @@ jobs:
       - name: Run container
         id: hello-action
         uses: ./DOCKERFILE
+        with:
+          who-to-greet: "Me!"
