@@ -10,6 +10,8 @@ jobs:
         
       - name: Run container
         uses: actions/Actions_Test@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         id: hello-action
         with:
           who-to-greet: "Me!"
