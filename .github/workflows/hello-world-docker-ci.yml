@@ -10,6 +10,6 @@ jobs:
         
       - name: Run container
         id: hello-action
-        uses: ./DOCKERFILE
+        uses: ./Dockerfile
         with:
           who-to-greet: "Me!"
